@@ -57,38 +57,38 @@ include CMakeFiles/doubly_linked_list.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/doubly_linked_list.dir/flags.make
 
-CMakeFiles/doubly_linked_list.dir/main.c.o: CMakeFiles/doubly_linked_list.dir/flags.make
-CMakeFiles/doubly_linked_list.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/paava/CLionProjects/doubly_linked_list/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/doubly_linked_list.dir/main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/doubly_linked_list.dir/main.c.o   -c /cygdrive/c/Users/paava/CLionProjects/doubly_linked_list/main.c
+CMakeFiles/doubly_linked_list.dir/DLL.c.o: CMakeFiles/doubly_linked_list.dir/flags.make
+CMakeFiles/doubly_linked_list.dir/DLL.c.o: ../DLL.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/paava/CLionProjects/doubly_linked_list/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/doubly_linked_list.dir/DLL.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/doubly_linked_list.dir/DLL.c.o   -c /cygdrive/c/Users/paava/CLionProjects/doubly_linked_list/DLL.c
 
-CMakeFiles/doubly_linked_list.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/doubly_linked_list.dir/main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/paava/CLionProjects/doubly_linked_list/main.c > CMakeFiles/doubly_linked_list.dir/main.c.i
+CMakeFiles/doubly_linked_list.dir/DLL.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/doubly_linked_list.dir/DLL.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/paava/CLionProjects/doubly_linked_list/DLL.c > CMakeFiles/doubly_linked_list.dir/DLL.c.i
 
-CMakeFiles/doubly_linked_list.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/doubly_linked_list.dir/main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/paava/CLionProjects/doubly_linked_list/main.c -o CMakeFiles/doubly_linked_list.dir/main.c.s
+CMakeFiles/doubly_linked_list.dir/DLL.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/doubly_linked_list.dir/DLL.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/paava/CLionProjects/doubly_linked_list/DLL.c -o CMakeFiles/doubly_linked_list.dir/DLL.c.s
 
-CMakeFiles/doubly_linked_list.dir/main.c.o.requires:
+CMakeFiles/doubly_linked_list.dir/DLL.c.o.requires:
 
-.PHONY : CMakeFiles/doubly_linked_list.dir/main.c.o.requires
+.PHONY : CMakeFiles/doubly_linked_list.dir/DLL.c.o.requires
 
-CMakeFiles/doubly_linked_list.dir/main.c.o.provides: CMakeFiles/doubly_linked_list.dir/main.c.o.requires
-	$(MAKE) -f CMakeFiles/doubly_linked_list.dir/build.make CMakeFiles/doubly_linked_list.dir/main.c.o.provides.build
-.PHONY : CMakeFiles/doubly_linked_list.dir/main.c.o.provides
+CMakeFiles/doubly_linked_list.dir/DLL.c.o.provides: CMakeFiles/doubly_linked_list.dir/DLL.c.o.requires
+	$(MAKE) -f CMakeFiles/doubly_linked_list.dir/build.make CMakeFiles/doubly_linked_list.dir/DLL.c.o.provides.build
+.PHONY : CMakeFiles/doubly_linked_list.dir/DLL.c.o.provides
 
-CMakeFiles/doubly_linked_list.dir/main.c.o.provides.build: CMakeFiles/doubly_linked_list.dir/main.c.o
+CMakeFiles/doubly_linked_list.dir/DLL.c.o.provides.build: CMakeFiles/doubly_linked_list.dir/DLL.c.o
 
 
 # Object files for target doubly_linked_list
 doubly_linked_list_OBJECTS = \
-"CMakeFiles/doubly_linked_list.dir/main.c.o"
+"CMakeFiles/doubly_linked_list.dir/DLL.c.o"
 
 # External object files for target doubly_linked_list
 doubly_linked_list_EXTERNAL_OBJECTS =
 
-doubly_linked_list.exe: CMakeFiles/doubly_linked_list.dir/main.c.o
+doubly_linked_list.exe: CMakeFiles/doubly_linked_list.dir/DLL.c.o
 doubly_linked_list.exe: CMakeFiles/doubly_linked_list.dir/build.make
 doubly_linked_list.exe: CMakeFiles/doubly_linked_list.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/paava/CLionProjects/doubly_linked_list/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable doubly_linked_list.exe"
@@ -99,7 +99,7 @@ CMakeFiles/doubly_linked_list.dir/build: doubly_linked_list.exe
 
 .PHONY : CMakeFiles/doubly_linked_list.dir/build
 
-CMakeFiles/doubly_linked_list.dir/requires: CMakeFiles/doubly_linked_list.dir/main.c.o.requires
+CMakeFiles/doubly_linked_list.dir/requires: CMakeFiles/doubly_linked_list.dir/DLL.c.o.requires
 
 .PHONY : CMakeFiles/doubly_linked_list.dir/requires
 

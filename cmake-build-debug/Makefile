@@ -123,32 +123,32 @@ doubly_linked_list/fast:
 	$(MAKE) -f CMakeFiles/doubly_linked_list.dir/build.make CMakeFiles/doubly_linked_list.dir/build
 .PHONY : doubly_linked_list/fast
 
-main.o: main.c.o
+DLL.o: DLL.c.o
 
-.PHONY : main.o
+.PHONY : DLL.o
 
 # target to build an object file
-main.c.o:
-	$(MAKE) -f CMakeFiles/doubly_linked_list.dir/build.make CMakeFiles/doubly_linked_list.dir/main.c.o
-.PHONY : main.c.o
+DLL.c.o:
+	$(MAKE) -f CMakeFiles/doubly_linked_list.dir/build.make CMakeFiles/doubly_linked_list.dir/DLL.c.o
+.PHONY : DLL.c.o
 
-main.i: main.c.i
+DLL.i: DLL.c.i
 
-.PHONY : main.i
+.PHONY : DLL.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) -f CMakeFiles/doubly_linked_list.dir/build.make CMakeFiles/doubly_linked_list.dir/main.c.i
-.PHONY : main.c.i
+DLL.c.i:
+	$(MAKE) -f CMakeFiles/doubly_linked_list.dir/build.make CMakeFiles/doubly_linked_list.dir/DLL.c.i
+.PHONY : DLL.c.i
 
-main.s: main.c.s
+DLL.s: DLL.c.s
 
-.PHONY : main.s
+.PHONY : DLL.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) -f CMakeFiles/doubly_linked_list.dir/build.make CMakeFiles/doubly_linked_list.dir/main.c.s
-.PHONY : main.c.s
+DLL.c.s:
+	$(MAKE) -f CMakeFiles/doubly_linked_list.dir/build.make CMakeFiles/doubly_linked_list.dir/DLL.c.s
+.PHONY : DLL.c.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... doubly_linked_list"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... DLL.o"
+	@echo "... DLL.i"
+	@echo "... DLL.s"
 .PHONY : help
 
 

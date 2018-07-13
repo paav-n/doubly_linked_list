@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/cygdrive/c/Users/paava/CLionProjects/doubly_linked_list/main.c
+/cygdrive/c/Users/paava/CLionProjects/doubly_linked_list/DLL.c
 stdio.h
 -
 stdlib.h
